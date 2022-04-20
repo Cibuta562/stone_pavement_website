@@ -1,1 +1,5 @@
-# stone_pavement_website
+# Doberlads
+
+1) npm install
+2) npm start
+
