@@ -1,0 +1,33 @@
+.timer {
+    height: 100px;
+    /*background-color: #7388E1FF;*/
+    background-color: rgba(0,0,0,0);
+    color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    padding: 30px;
+    margin: 0;
+}
+
+.img-soon{
+    height: 40px;
+    width: 40px;
+}
+
+.arrowSoon{
+    text-align: center;
+    font-size: 48px;
+    font-family: Righteous;
+}
+
+.timer-p{
+    text-align: center;
+    font-size: 48px;
+    font-family: Fredoka;
+    text-shadow: 2px 2px lightblue;
+}
+
+@media (max-width: 600px) {
+    .timer-p{
+        font-size: 28px;
+    }
+}
