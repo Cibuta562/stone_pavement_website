@@ -4,64 +4,14 @@ import { ReactComponent as MenuIcon } from "../assets/owner/menu.svg";
 import { ReactComponent as Logo } from "../assets/owner/menu.svg";
 import "./HeaderMobile.css";
 import {Link} from "react-router-dom";
-import dobbsLogo from "../assets/llogo.png";
-import instagramIcon from "../assets/assets_website/5ecec78673e4440004f09e77.png";
-import twitterIcon from "../assets/assets_website/pngwing.com.png";
+import dobbsLogo from "../assets/LOGO_PIATRA.png";
+import instagramIcon from "../assets/assets_website/logo_fb_black.png";
+import twitterIcon from "../assets/assets_website/whapp.png";
 import discordIcon from "../assets/assets_website/discord-black-icon-703937.png";
 
 const HeaderMobile = () => {
 
-        const mql = window.matchMedia('(max-width: 600px)');
-        let mobileView = mql.matches;
 
-        const tql = window.matchMedia('(max-width: 900px)');
-        let tabletView = tql.matches;
-
-        const tlql = window.matchMedia('(max-width: 1100px)');
-        let tabletLandView = tlql.matches;
-
-        const dql = window.matchMedia('(min-width: 1280px)');
-        let desktopView = dql.matches;
-
-        const [header, setHeader] = useState("header")
-
-
-            const listenScrollEvent = (event) => {
-                if (window.scrollY < 2100 && desktopView) {
-                    return setHeader("header")
-                } else if (window.scrollY > 2150 && desktopView) {
-                    return setHeader("header2")
-                }
-                else if (window.scrollY < 3400 && mobileView) {
-                    return setHeader("header")
-                } else if (window.scrollY > 3450 && mobileView) {
-                    return setHeader("header2")
-                }
-                  else if (window.scrollY < 3600 && tabletView) {
-                    return setHeader("header")
-                } else if (window.scrollY > 3650 && tabletView) {
-                    return setHeader("header2")
-                }
-                else if (window.scrollY < 2250 && tabletLandView) {
-                    return setHeader("header")
-                } else if (window.scrollY > 2300 && tabletLandView) {
-                    return setHeader("header2")
-                }
-            }
-
-
-
-
-        useEffect(() => {
-            window.addEventListener('scroll', listenScrollEvent);
-
-            return () =>
-                window.removeEventListener('scroll', listenScrollEvent);
-        }, []);
-
-    function componentDidMount() {
-        window.addEventListener('scroll', this.listenScrollEvent)
-    }
 
     function moveToFAQ() {
         window.scrollTo(0,3400);
@@ -83,8 +33,8 @@ const HeaderMobile = () => {
         window.open ("https://discord.gg/hCdmCCJdfx");
     }
 
-    function moveToInsta(){
-        window.open ("https://www.instagram.com/doberlads/");
+    function moveToFb(){
+        window.open ("https://www.facebook.com/bobocrobertandrei/");
     }
 
     function moveToTop() {
@@ -101,45 +51,47 @@ const HeaderMobile = () => {
     const closeMobileMenu = () => setClick(false);
 
     return (
-        <div className={header}>
+        <div className="header">
             <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet"/>
             <div className='logoContainer'>
                 <Link classname="no-decorations" to="/">
                     <img src={dobbsLogo} className='doberLogo' />
                 </Link>
             </div>
-            <div className='headerItems' style={{marginBottom: "15px", marginRight: "120px", marginTop: "25px"}}>
+            <div className='headerItems' style={{marginBottom: "23px", marginRight: "120px", marginTop: "25px"}}>
                 <ul className={click ? "nav-options active" : "nav-options"}>
                     <li className="option " onClick={closeMobileMenu}>
-                        <Link   to="/" style={{ textDecoration: 'none', color: "rgb(0,0,20)"}}>
-                            <p className='road-maphead' onClick={moveToDoberlads}>DOBERLADS</p>
+                        <Link   to="/" style={{ textDecoration: 'none', color: "rgb(0,0,0)"}}>
+                            <p className='road-maphead' onClick={moveToDoberlads}>PIATRA</p>
                         </Link>
                     </li>
                     <li className="option" onClick={closeMobileMenu} >
-                        <Link   to="/" style={{ textDecoration: 'none', color: "rgb(0,0,20)" }}>
-                            <p className='road-maphead' onClick={moveToTeam}>TEAM</p>
+                        <Link   to="/" style={{ textDecoration: 'none', color: "rgb(0,0,0)" }}>
+                            <p className='road-maphead' onClick={moveToTeam}>GRATARE</p>
                         </Link>
                     </li>
                     <li className="option " onClick={closeMobileMenu} >
-                        <Link  to="/" style={{ textDecoration: 'none', color: "rgb(0,0,20)" }}>
-                            <p className='road-maphead' onClick={moveToFAQ}>FAQ</p>
+                        <Link  to="/" style={{ textDecoration: 'none', color: "rgb(0,0,0)" }}>
+                            <p className='road-maphead' onClick={moveToFAQ}>GAZON</p>
                         </Link>
                     </li>
                     <li className="option " onClick={mobileAndMove} >
-                        <Link  to="/roadmap" style={{ textDecoration: 'none', color: "rgb(0,0,20)" }}>
-                            <p className='road-maphead'>ROADMAP</p>
+                        <Link  to="/roadmap" style={{ textDecoration: 'none', color: "rgb(0,0,0)" }}>
+                            <p className='road-maphead'>POMI</p>
+                        </Link>
+                    </li>
+                    <li className="option " onClick={mobileAndMove} >
+                        <Link  to="/roadmap" style={{ textDecoration: 'none', color: "rgb(0,0,0)" }}>
+                            <p className='road-maphead'>FANTANI</p>
                         </Link>
                     </li>
                     <li className="option buttons"  onClick={closeMobileMenu} >
                         <div className='headerActions'>
                             <div className="instagramContainerH" >
-                                <img src={instagramIcon} onClick={moveToInsta}/>
+                                <img src={instagramIcon} onClick={moveToFb}/>
                             </div>
                             <div className="twitterContainerH" >
                                 <img src={twitterIcon} onClick={moveToTwitter}/>
-                            </div>
-                            <div className="discordContainerH" onClick={moveToDiscord} >
-                                <img src={discordIcon}/>
                             </div>
                         </div>
                     </li>

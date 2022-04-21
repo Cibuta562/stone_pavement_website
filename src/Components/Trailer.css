@@ -4,9 +4,9 @@
     z-index: -1;
     box-sizing: inherit;
     border-width: 5px 5px 5px 5px;
-    border-color: aliceblue;
+    border-color: white;
     border-radius: 11px 11px 11px 11px;
-    box-shadow: 6px 6px 0px 5px lightblue;
+    box-shadow: 6px 6px 0px 5px  #C5C3C8;
 }
 
 .trailer {
@@ -16,8 +16,8 @@
 
 .titluTrailer{
     text-align: center;
-    color: aliceblue;
-    text-shadow: 3px 3px lightblue;
+    color: white;
+    text-shadow: 3px 3px  #C5C3C8;
     font-size: 60px;
     margin-top: 10%;
     margin-bottom: 10%;

@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import discordIcon from "../assets/assets_website/discord-black-icon-703937.png";
 import instagramIcon from "../assets/assets_website/5ecec78673e4440004f09e77.png";
 import twitterIcon from "../assets/assets_website/pngwing.com.png";
-import dubbsLogo from "../assets/llogo.png";
+import dubbsLogo from "../assets/LOGO_PIATRA.png";
 import {Col, Container, NavLink, Row} from "react-bootstrap";
 import {Link} from "react-router-dom";
 
@@ -32,28 +32,21 @@ const Footer = () => {
 
     return (
         <div className='footer-big'>
-            <div className="cards" style={{ backgroundColor: "#7388E1FF", margin: 0}}>
-                <div className="card-logo display-footer" style={{position: "relative", backgroundColor: "#7388E1FF"}} >
+            <div className="cards" style={{ backgroundColor: "#C5C3C8", margin: 0}}>
+                <div className="card-logo display-footer" style={{position: "relative", backgroundColor: "#C5C3C8"}} >
                     <div className='footerLogo' onClick={moveToTop}>
-                    <img src={dubbsLogo} className='footerLogo img-logo'  onClick={moveToTop} style={{marginRight: "10px", marginLeft: "10px"}}/>
-                    <div className=' text-footer'>
-                        <Link className="no-decorations l-text" to="/">
-                            DoberLads
-                        </Link>
-                    </div>
+                    <img src={dubbsLogo} className='footerLogo img-logo'  onClick={moveToTop} style={{marginRight: "10px", marginLeft: "10px", marginTop:"10px"}}/>
                    </div>
                 </div>
-                <div className="card-logo" style={{position: "relative", backgroundColor: "#7388E1FF", margin: 0}}>
+                <div className="card-logo" style={{position: "relative", backgroundColor: "#C5C3C8", margin: 0}}>
                     <div className="footerItems" onClick={moveToTop}>
-                    <Link className="no-decorations " to="/terms_of_service"><p className='terms'>Terms of Service</p></Link>
-                    <p className='dash'>|</p>
-                    <Link className="no-decorations " to="/privacy_policy"><p className='privacy'>Privacy Policy</p></Link>
+                    <Link className="no-decorations " to="/privacy_policy"><p className='privacy'>Termenii si Serviciile</p></Link>
                 </div>
                 </div>
-                <div className="card-logo" style={{position: "relative", backgroundColor: "#7388E1FF", margin: 0}}>
+                <div className="card-logo" style={{position: "relative", backgroundColor: "#C5C3C8", margin: 0}}>
                     <div className="copyrights">
                         <p className="terms">
-                            © DoberLads
+                            © Boboc Robert Andrei
                         </p>
                 </div>
                 </div>

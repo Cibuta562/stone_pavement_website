@@ -23,23 +23,40 @@ const About = () => {
                     <div className='box1'>
                         <h2 style={{marginBottom: "20px"}}></h2>
                         <div className='non-hoverAbout'>
-                       <p style={{textAlign: "center"}} >
-                           A parallel universe where Dobermans control the world and live by the same means as humans.
-                        </p>
+                            <p style={{textAlign: "center"}} >
+                                Oferim servicii de montare piatra naturală de munte.
+                                Montajul se executa in toata țara, iar piatra se poate placa pe :
+                                </p>
+                            <p style={{textAlign: "center"}}>
+                                -alei pietonale
+                            </p>
+                            <p style={{textAlign: "center"}}>
+                                -parcari auto
+                            </p>
+                            <p style={{textAlign: "center"}}>
+                                -scari
+                            </p>
+                            <p style={{textAlign: "center"}}>
+                                -soclul casei
+                            </p>
+                            <p style={{textAlign: "center"}}>
+                                -etc.
+                            </p>
+
+                            <p style={{textAlign: "center"}}>Piatra vine in diferite nuanțe si poate fi aleasa de catre dumneavoastra.</p>
+                            <p style={{textAlign: "center"}}>  Pentru mai multe detalii accesati pagina de contact sau sunati la numarul afisat.
+                            </p>
                             <br/>
                             <br/>
                             <p style={{textAlign: "center"}}>
-                                We live in a hectic and fast-paced world where everything changes really quickly.
-                                Procrastination is a really big problem within the new generations. We want to battle
-                                this problem and come up with fun solutions that will bring benefits to our community.
-                               </p>
+                            </p>
                         </div>
                 </div>
             </div>
         </div>
-            <Link className="no-hover-mint" to="/mint">
+            <Link className="no-hover-mint" to="#">
             <button className='mintButton1' onClick={moveToTop}>
-                MINT
+                CONTACT
                 </button>
             </Link>
             <ScrollAnimate path={'bottom'}>

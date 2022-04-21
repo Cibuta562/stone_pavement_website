@@ -7,15 +7,14 @@
  }
 .teamParagraph{
     font-size: 30px;
-    color: aliceblue;
+    color: white;
     font-family: Fredoka;
     margin-bottom: 10%;
 }
 
  .teamHeader{
      font-size: 50px;
-     color: aliceblue;
-     text-shadow: 1px 1px lightblue;
+     color: white;
      font-family: Righteous;
      margin-bottom: 10%;
  }
@@ -34,20 +33,18 @@
     position: relative;
     overflow: hidden;
     width: 330px;
-    height: 460px;
-    background-color: rgba(255, 255, 255, 0.03);
+    height: 500px;
+    background-color: #C5C3C8;
     margin: 40px;
     border-radius: 20px;
-    border-bottom-left-radius: 160px;
-    border-bottom-right-radius: 160px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    border: 5px aliceblue;
+    border: 5px white;
 }
 
 .card1:hover{
-    background-color: #1e1e1e;
+    background-color: #BEB2A2;
 }
 
 /*.card1::before{
@@ -87,31 +84,15 @@
  }*/
 
 
-.eugen{
-    background-color: aliceblue;
-    transition: 0.45s;
-    height: 180px;
-    width: 180px;
-    border-style: solid;
-    border-width: 5px 5px 5px 5px;
-    border-color: aliceblue;
-    border-radius: 11px 11px 11px 11px;
-    box-shadow: 6px 6px 0px 5px lightblue;
-}
-
-.eugen img{
-    cursor: pointer;
-}
 
 .radu{
-    background-color: aliceblue;
-    height: 180px;
-    width: 180px;
+    background-color: white;
+    height: 200px;
+    width: 200px;
     border-style: solid;
     border-width: 5px 5px 5px 5px;
-    border-color: aliceblue;
+    border-color: white;
     border-radius: 11px 11px 11px 11px;
-    box-shadow: 6px 6px 0px 5px lightblue;
 }
 
 .radu img{
@@ -119,14 +100,14 @@
 }
 
 .vlad{
-    background-color: aliceblue;
-    height: 180px;
-    width: 180px;
+    background-color: white;
+    height: 200px;
+    width: 200px;
     border-style: solid;
-    border-width: 5px 5px 5px 5px;
-    border-color: aliceblue;
+    border-width: 3px 3px 3px 3px;
     border-radius: 11px 11px 11px 11px;
-    box-shadow: 6px 6px 0px 5px lightblue;
+    box-shadow: 3px 3px 2px 5px  #C5C3C8;
+    border-color: white;
 }
 
 .vlad img{
@@ -134,14 +115,15 @@
 }
 
 .stefan{
-    background-color: aliceblue;
-    height: 180px;
-    width: 180px;
+    background-color: white;
+    height: 200px;
+    width: 200px;
     border-style: solid;
-    border-width: 5px 5px 5px 5px;
-    border-color: aliceblue;
+    border-width: 3px 3px 3px 3px;
     border-radius: 11px 11px 11px 11px;
-    box-shadow: 6px 6px 0px 5px lightblue;
+    box-shadow: 3px 3px 2px 5px  #C5C3C8;
+    border-color: white;
+
 }
 
 .stefan img{
@@ -149,14 +131,14 @@
 }
 
 .boboc {
-    background-color: aliceblue;
-    height: 180px;
-    width: 180px;
+    background-color: white;
+    height: 200px;
+    width: 200px;
     border-style: solid;
-    border-width: 5px 5px 5px 5px;
-    border-color: aliceblue;
+    border-width: 3px 3px 3px 3px;
+    border-color: white;
     border-radius: 11px 11px 11px 11px;
-    box-shadow: 6px 6px 0px 5px lightblue;
+    box-shadow: 3px 3px 2px 5px  #C5C3C8;
     z-index: 3;
 }
 
@@ -165,14 +147,14 @@
 }
 
 .bogdan{
-    background-color: aliceblue;
-    height: 180px;
-    width: 180px;
-    border-width: 5px 5px 5px 5px;
-    border-color: aliceblue;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border-color: white;
     border-style: solid;
-    border-radius:11px 11px 11px 11px;
-    box-shadow: 6px 6px 0px 5px lightblue;
+    border-width: 3px 3px 3px 3px;
+    border-radius: 11px 11px 11px 11px;
+    box-shadow: 3px 3px 2px 5px  #C5C3C8;
 }
 
 .bogdan img{
@@ -180,14 +162,14 @@
 }
 
 .cristiana{
-    background-color: aliceblue;
-    height: 180px;
-    width: 180px;
+    background-color: white;
+    height: 200px;
+    width: 200px;
     border-style: solid;
-    border-width: 5px 5px 5px 5px;
-    border-color: aliceblue;
+    border-color: white;
+    border-width: 3px 3px 3px 3px;
     border-radius: 11px 11px 11px 11px;
-    box-shadow: 6px 6px 0px 5px lightblue;
+    box-shadow: 3px 3px 2px 5px  #C5C3C8;
 }
 
 .cristiana img{
@@ -196,34 +178,34 @@
 
 .content{
     font-size: large;
-    color: aliceblue;
+    color: white;
     bottom: -20px;
 }
 
 .names{
-    color: aliceblue;
+    color: white;
     font-family: "Righteous";
-    text-shadow: 1px 1px lightblue;
+    font-size: 32px;
+    margin-bottom: 10px;
 }
 
-.descriere-rol{
+.descriere-rol-team{
     font-family: Fredoka;
     background-color: transparent;
     border: 5px solid transparent;
-    color: aliceblue;
-    text-shadow: 1px 1px lightblue;
+    color: white;
     text-align: justify-all;
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 24px;
 }
 
 .descriere{
     font-family: Fredoka;
-    color: aliceblue;
+    color: white;
     background-color: transparent;
     border: 5px solid transparent;
     text-align: justify-all;
-    margin-top: -10px;
+    top: 10px;
     font-size: 22px;
 }
 
@@ -235,9 +217,8 @@
     position: center;
     border-style: solid;
     border-width: 2px 2px 2px 2px;
-    border-color: aliceblue;
-    border-radius: 11px 11px 11px 11px;
-    box-shadow: 3px 3px 0px 2.5px lightblue;
+    border-color: white;
+    border-radius: 5px 5px 5px 5px;
     margin-top: 5px;
 }
 
@@ -245,52 +226,47 @@
     height: 50px;
     width: 50px;
     border-style: solid;
-    border-color: aliceblue;
-    border-radius: 11px 11px 11px 11px;
-    box-shadow: 3px 3px 0px 2.5px lightblue;
+    border-color: white;
+    border-radius: 5px 5px 5px 5px;
 }
 
 
 @media (max-width: 1280px) {
-    .eugen{
-        height: 150px;
-        width: 150px;
-    }
 
     .radu{
-        height: 150px;
-        width: 150px;
+        height: 180px;
+        width: 180px;
     }
 
     .vlad {
-        height: 150px;
-        width: 150px;
+        height: 180px;
+        width: 180px;
     }
 
     .stefan{
-        height: 150px;
-        width: 150px;
+        height: 180px;
+        width: 180px;
     }
 
     .boboc {
-        height: 150px;
-        width: 150px;
+        height: 180px;
+        width: 180px;
     }
 
     .bogdan{
-        height: 150px;
-        width: 150px;
+        height: 180px;
+        width: 180px;
         align-items: center;
     }
 
     .cristiana{
-        height: 150px;
-        width: 150px;
+        height: 180px;
+        width: 180px;
     }
 
     .card1{
         width: 300px;
-        height: 400px;
+        height: 500px;
     }
 
     .descriere{
@@ -298,9 +274,19 @@
         font-family: Fredoka;
         background-color: transparent;
         text-align: center;
-        margin-top: -5px;
+        top: 10px;
         font-size: 18px;
         border: none;
+    }
+
+    .descriere-rol-team{
+        font-family: Fredoka;
+        background-color: transparent;
+        border: 5px solid transparent;
+        color: white;
+        text-align: justify-all;
+        margin-top: 15px;
+        font-size: 20px;
     }
 
     .logo{
@@ -309,9 +295,9 @@
         position: center;
         border-style: solid;
         border-width: 2px 2px 2px 2px;
-        border-color: aliceblue;
-        border-radius: 11px 11px 11px 11px;
-        box-shadow: 3px 3px 0px 2.5px lightblue;
+        border-color: white;
+        border-radius: 5px 5px 5px 5px;
+        border-radius: 5px 5px 5px 5px;
         margin-top: 5px;
     }
 }

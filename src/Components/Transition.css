@@ -2,8 +2,8 @@
     height: 150px;
     width: 100%;
     position: relative;
-    background-image: linear-gradient(#2748BB,#2546BA);
-    z-index: 3;
+    background-color: #605F64;
+    z-index: 1;
 }
 
 .hr3 {

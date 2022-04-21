@@ -35,7 +35,7 @@ function App() {
 
     return (
         <div className='app'>
-            <Page loader={"spin"} color={"red"} size={6}>
+            <Page loader={"spin"} color={"gray"} size={6}>
                 <HeaderMobile/>
 
             <ScrollAnimate path={'bottom'}>
@@ -51,19 +51,10 @@ function App() {
             </ScrollAnimate>
 
             <ScrollAnimate path={'bottom'}>
-                <Transition/>
-            </ScrollAnimate>
-
-            <ScrollAnimate path={'bottom'}>
                 <CTA/>
             </ScrollAnimate>
 
-            <ScrollAnimate path={'bottom'}>
-                                <NewFaqAcc/>
-            </ScrollAnimate>
 
-
-            <FaqJr/>
             <CookieConsent debug={false} location="bottom" buttonStyle={{ color: "#000", background: "#fff", fontSize: "14px", borderRadius: "10px"}}
                            style={{background: "#1e1e1e", fontFamily: "Fredoka"}} contentStyle={{marginLeft: "13%"}}>
                            Our website uses cookies to improve your experience 🍪
