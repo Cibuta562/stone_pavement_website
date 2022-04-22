@@ -12,7 +12,7 @@ const About = () => {
     });
 
     function moveToTop(){
-        window.scrollTo(0, 100);
+        window.scrollTo(0, 6300);
     }
     return (
         <div className='diagonal'>

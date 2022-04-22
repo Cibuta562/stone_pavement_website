@@ -14,11 +14,11 @@ const HeaderMobile = () => {
 
 
     function moveToFAQ() {
-        window.scrollTo(0,3400);
+        window.scrollTo(0,0);
     }
 
     function moveToTeam() {
-        window.scrollTo(0,1200);
+        window.scrollTo(0,0);
     }
 
     function moveToDoberlads() {
@@ -76,12 +76,12 @@ const HeaderMobile = () => {
                         </Link>
                     </li>
                     <li className="option " onClick={mobileAndMove} >
-                        <Link  to="/roadmap" style={{ textDecoration: 'none', color: "rgb(0,0,0)" }}>
+                        <Link  to="/" style={{ textDecoration: 'none', color: "rgb(0,0,0)" }}>
                             <p className='road-maphead'>POMI</p>
                         </Link>
                     </li>
                     <li className="option " onClick={mobileAndMove} >
-                        <Link  to="/roadmap" style={{ textDecoration: 'none', color: "rgb(0,0,0)" }}>
+                        <Link  to="/" style={{ textDecoration: 'none', color: "rgb(0,0,0)" }}>
                             <p className='road-maphead'>FANTANI</p>
                         </Link>
                     </li>

@@ -1,14 +1,17 @@
 import React, { useEffect } from 'react';
 import "./CTA.css"
-import {Card, Col, Container, Row} from "react-bootstrap";
-import {Button} from "bootstrap";
 import piatra_cta from  "../assets/owner/piatra_cta.jpg" ;
 import bani_cta from  "../assets/owner/bani_cta.jpg" ;
 import timp_cta from  "../assets/owner/timp_cta.jpg" ;
+import slider1 from "../assets/owner/slider1.jpg";
+import slider2 from "../assets/owner/slider2.jpeg";
+import slider3 from "../assets/owner/slider3.jpeg";
+import slider4 from "../assets/owner/slider4.jpeg";
 import {Link} from "react-router-dom";
 import RoadMap from "./RoadMap";
 import instagramIcon from "../assets/assets_website/logo_fb_black.png";
 import twitterIcon from "../assets/assets_website/whapp.png";
+import Carousel from 'react-bootstrap/Carousel'
 
 const CTA = () => {
 
@@ -36,6 +39,46 @@ const CTA = () => {
 
     return (
         <div className='call-to-action'>
+
+            <Carousel fade>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={slider1}
+                        alt="First slide"
+                    />
+                    <Carousel.Caption>
+                        <h3>Slide 1</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={slider1}
+                        alt="Second slide"
+                    />
+
+                    <Carousel.Caption>
+                        <h3>Slide 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={slider1}
+                        alt="Third slide"
+                    />
+
+                    <Carousel.Caption>
+                        <h3>Slide 3</h3>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+
+            </Carousel>
+
                 <div className="call-space"></div>
 
             <div className="col-call col-margin">
@@ -90,8 +133,14 @@ const CTA = () => {
                     </div>
                 </div>
                 </Link>
+
+
+
+
             </div>
             <div className="call-space"></div>
+
+
             <h1 className="section-header">Contact</h1>
 
             <div className="contact-wrapper">
