@@ -427,6 +427,7 @@ textarea {
 /* Begin Right Contact Page */
 .direct-contact-container {
     max-width: 400px;
+    margin-left: 50px;
 }
 
 /* Location, Phone, Email Section */
@@ -540,6 +541,7 @@ hr {
 
 /* Begin Media Queries*/
 @media screen and (max-width: 850px) {
+
 
     .place {
         margin-left: 0;
