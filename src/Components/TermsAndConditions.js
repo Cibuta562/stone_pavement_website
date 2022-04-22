@@ -28,7 +28,7 @@ const TermsAndConditions = () => {
             <ScrollAnimate path={'bottom'}>
             <Container>
                 <div className="text-cont">
-                    <p className="text-h">Terms of Service</p>
+                    <p className="text-h">Termenii si conditiile</p>
                 <br/>
                 <p className="text">Introduction
                 These Website Standard Terms and Conditions written on this webpage shall manage your use of our website, doberlads.com accessible at doberlads.com.
