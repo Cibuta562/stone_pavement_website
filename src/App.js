@@ -3,14 +3,10 @@ import './App.css';
 import Trailer from "./Components/Trailer.js";
 import Footer from "./Components/Footer";
 import Team from "./Components/Team"
-import Mint from './Components/Mint'
 import "animate.css/animate.min.css";
-import Faq from "./Components/Faq"
 import HeaderMobile from "./Components/HeaderMobile";
 import About from "./Components/About"
 import React, { useEffect, useState, Component} from "react";
-import FaqJr from "./Components/FaqJr";
-import Timer from "./Components/Timer";
 import AbtTeam from './Components/AbtTeam'
 import "./Fonts/Roboto/Roboto-Bold.ttf";
 import "./Fonts/BebasNeue/BebasNeue/TTF/BebasNeue-Bold.ttf";
@@ -19,7 +15,6 @@ import "./Fonts/Roboto/Roboto-Black.ttf";
 import CookieConsent from "react-cookie-consent";
 import ScrollAnimate from "react-scroll-fade-animation";
 import ReactGA from 'react-ga';
-import NewFaqAcc from "./Components/NewFaqAcc";
 import CTA from "./Components/CTA";
 import Transition from "./Components/Transition";
 import Page from 'react-page-loading'

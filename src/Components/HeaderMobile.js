@@ -7,6 +7,7 @@ import {Link} from "react-router-dom";
 import dobbsLogo from "../assets/LOGO_PIATRA.png";
 import instagramIcon from "../assets/assets_website/logo_fb_black.png";
 import twitterIcon from "../assets/assets_website/whapp.png";
+import olxIcon from "../assets/owner/olx-logo.png";
 import discordIcon from "../assets/assets_website/discord-black-icon-703937.png";
 
 const HeaderMobile = () => {
@@ -61,7 +62,7 @@ const HeaderMobile = () => {
             <div className='headerItems' style={{marginBottom: "23px", marginRight: "120px", marginTop: "25px"}}>
                 <ul className={click ? "nav-options active" : "nav-options"}>
                     <li className="option " onClick={closeMobileMenu}>
-                        <Link   to="/" style={{ textDecoration: 'none', color: "rgb(0,0,0)"}}>
+                        <Link   to="/piatra" style={{ textDecoration: 'none', color: "rgb(0,0,0)"}}>
                             <p className='road-maphead' onClick={moveToDoberlads}>PIATRA</p>
                         </Link>
                     </li>
@@ -77,7 +78,7 @@ const HeaderMobile = () => {
                     </li>
                     <li className="option " onClick={mobileAndMove} >
                         <Link  to="/" style={{ textDecoration: 'none', color: "rgb(0,0,0)" }}>
-                            <p className='road-maphead'>POMI</p>
+                            <p className='road-maphead'>TUI</p>
                         </Link>
                     </li>
                     <li className="option " onClick={mobileAndMove} >
@@ -92,6 +93,9 @@ const HeaderMobile = () => {
                             </div>
                             <div className="twitterContainerH" >
                                 <img src={twitterIcon} onClick={moveToTwitter}/>
+                            </div>
+                            <div className="instagramContainerH" >
+                                <img src={olxIcon} onClick={moveToTwitter}/>
                             </div>
                         </div>
                     </li>

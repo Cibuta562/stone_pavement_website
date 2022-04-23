@@ -35,18 +35,20 @@ const Footer = () => {
             <div className="cards" style={{ backgroundColor: "#C5C3C8", margin: 0}}>
                 <div className="card-logo display-footer" style={{position: "relative", backgroundColor: "#C5C3C8"}} >
                     <div className='footerLogo' onClick={moveToTop}>
-                    <img src={dubbsLogo} className='footerLogo img-logo'  onClick={moveToTop} style={{marginRight: "10px", marginLeft: "10px", marginTop:"10px"}}/>
+                    <img src={dubbsLogo} className='footerLogo img-logo'  onClick={moveToTop} style={{marginRight: "10px", marginLeft: "10px", marginTop:"0px"}}/>
                    </div>
                 </div>
                 <div className="card-logo" style={{position: "relative", backgroundColor: "#C5C3C8", margin: 0}}>
                     <div className="footerItems" onClick={moveToTop}>
-                    <Link className="no-decorations " to="/privacy_policy"><p className='privacy'>Termenii si Serviciile</p></Link>
+                    <Link className="no-decorations " to="/termenii_si_conditiile"><p className='privacy' style={{color:"white"}}>Termenii si Conditiile</p></Link>
                 </div>
                 </div>
                 <div className="card-logo" style={{position: "relative", backgroundColor: "#C5C3C8", margin: 0}}>
                     <div className="copyrights">
                         <p className="terms">
+                            <a href="https://www.linkedin.com/in/boboc-robert-andrei-a2b21a175/" style={{textDecoration: "none", color:"white"}}>
                             © Boboc Robert Andrei
+                            </a>
                         </p>
                 </div>
                 </div>

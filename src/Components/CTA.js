@@ -12,6 +12,7 @@ import RoadMap from "./RoadMap";
 import instagramIcon from "../assets/assets_website/logo_fb_black.png";
 import twitterIcon from "../assets/assets_website/whapp.png";
 import Carousel from 'react-bootstrap/Carousel'
+import olxIcon from "../assets/owner/olx-logo.png";
 
 const CTA = () => {
 
@@ -43,6 +44,7 @@ const CTA = () => {
             <Carousel fade>
                 <Carousel.Item>
                     <img
+                        width={1000} height={600} alt="900x500"
                         className="d-block w-100"
                         src={slider1}
                         alt="First slide"
@@ -54,6 +56,7 @@ const CTA = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
+                        width={1000} height={600} alt="900x500"
                         className="d-block w-100"
                         src={slider1}
                         alt="Second slide"
@@ -66,6 +69,7 @@ const CTA = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
+                        width={1000} height={600} alt="900x500"
                         className="d-block w-100"
                         src={slider1}
                         alt="Third slide"
@@ -174,15 +178,15 @@ const CTA = () => {
                 <div className="direct-contact-container">
 
                     <ul className="contact-list">
-                        <li className="list-item"><i className="fa fa-map-marker fa-2x"><span
-                            className="contact-text place">Bucuresti</span></i></li>
+                        <li className="list-item"><i className="fa fa-phone fa-2x"><span className="contact-text place"><a
+                            href="tel:+40790347866" title="Give me a call">0790347866</a></span></i></li>
 
                         <li className="list-item"><i className="fa fa-phone fa-2x"><span className="contact-text place"><a
-                            href="tel:1-212-555-5555" title="Give me a call">0723344599</a></span></i></li>
+                            href="tel:+40790347866" title="Give me a call">0728523219</a></span></i></li>
 
                         <li className="list-item"><i className="fa fa-envelope fa-2x"><span
-                            className="contact-text place"><a href="mailto:#"
-                                                              title="Send me an email">andreiboboccibo@gmail.com</a></span></i>
+                            className="contact-text place"><a href="mailto:marinalin2003@gmail.com"
+                                                              title="Send me an email">marinalin2003@gmail.com</a></span></i>
                         </li>
 
                     </ul>
@@ -195,6 +199,9 @@ const CTA = () => {
                                 </div>
                                 <div className="twitterContainerH" >
                                     <img src={twitterIcon} onClick={moveToTwitter}/>
+                                </div>
+                                <div className="instagramContainerH" >
+                                    <img src={olxIcon} onClick={moveToTwitter}/>
                                 </div>
                             </div>
                         </ul>

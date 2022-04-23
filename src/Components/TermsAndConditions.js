@@ -3,11 +3,7 @@ import './TermsAndConditions.css'
 import roadmap from "../assets/owner/raodmap.png"
 import bone from'../assets/bone-removebg-preview.png'
 import nft from'../assets/Aqua.png'
-import { ethers, BigNumber } from "ethers";
 import { useEffect, useState} from "react";
-import mint from "../../src/mintAbi.json"
-import Header from "./Header";
-import HeaderPages from "./HeaderPages";
 import Footer from "./Footer";
 import {Container} from "react-bootstrap";
 import HeaderMobile from "./HeaderMobile";

@@ -49,6 +49,7 @@
     color: aliceblue;
     /*text-shadow: 1px 1px lightblue;*/
     align-items: center;
+    padding: 5%;
 }
 
 
@@ -130,6 +131,16 @@
         font-size: 30px;
         font-family: 'Righteous';
     }
+
+    .text-about{
+        font-size: 14px;
+    }
+
+    .stories p{
+        font-size: 25px;
+        font-family: Fredoka;
+    }
+
 
 }
 

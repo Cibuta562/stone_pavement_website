@@ -1,5 +1,4 @@
 import './about.css'
-import './Mint.scss'
 
 import React, { useEffect } from 'react';
 import {Link, NavLink} from "react-router-dom";
@@ -9,7 +8,7 @@ import {Container} from "react-bootstrap";
 
 const About = () => {
     useEffect(() => {
-        document.title = 'Doberlads';
+        document.title = 'Piatra Naturala';
     });
 
     function moveToTop(){
@@ -25,37 +24,40 @@ const About = () => {
 
                         <h2 style={{marginBottom: "20px"}}></h2>
                         <div className='non-hoverAbout'>
-                            <Container>
-                            <p style={{textAlign: "center"}} >
+                            <p style={{textAlign: "center"}} className="text-about">
                                 Oferim servicii de montare piatra naturală de munte.
                                 Montajul se executa in toata țara, iar piatra se poate placa pe :
                                 </p>
-                            <p style={{textAlign: "center"}}>
+                            <br/>
+                            <p style={{textAlign: "center"}} className="text-about">
                                 -alei pietonale
                             </p>
-                            <p style={{textAlign: "center"}}>
+                            <p style={{textAlign: "center"}} className="text-about">
                                 -parcari auto
                             </p>
-                            <p style={{textAlign: "center"}}>
+                            <p style={{textAlign: "center"}} className="text-about">
                                 -scari
                             </p>
-                            <p style={{textAlign: "center"}}>
+                            <p style={{textAlign: "center"}} className="text-about">
                                 -soclul casei
                             </p>
-                            <p style={{textAlign: "center"}}>
+                            <p style={{textAlign: "center"}} className="text-about">
                                 -etc.
                             </p>
+                            <br/>
+                            <p style={{textAlign: "center"}} className="text-about">Piatra vine in diferite nuanțe si poate fi aleasa de catre dumneavoastra.</p>
+                            <p style={{textAlign: "center"}} className="text-about">  Pentru mai multe detalii accesati pagina de contact sau sunati la numarul afisat.
+                            </p>
+                            <br/>
+                            <p style={{textAlign: "center"}} className="text-about"> 0790347866
+                            </p>
 
-                            <p style={{textAlign: "center"}}>Piatra vine in diferite nuanțe si poate fi aleasa de catre dumneavoastra.</p>
-                            <p style={{textAlign: "center"}}>  Pentru mai multe detalii accesati pagina de contact sau sunati la numarul afisat.
-                            </p>
-                            <p style={{textAlign: "center"}}> 0723344599
+                                <p style={{textAlign: "center"}} className="text-about"> 0728523219
                             </p>
                             <br/>
                             <br/>
-                            <p style={{textAlign: "center"}}>
+                            <p style={{textAlign: "center"}} className="text-about">
                             </p>
-                        </Container>
                         </div>
                 </div>
             </div>

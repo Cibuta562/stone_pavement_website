@@ -10,26 +10,26 @@ import './index.css';
 import App from '../App';
 import Timer from "../Components/Timer";
 import Team from "../Components/Team"
-import Mint from '../Components/Mint'
-import Faq from "../Components/Faq"
 import About from "../Components/About"
 import reportWebVitals from '../reportWebVitals';
 import TermsAndConditions from "../Components/PrivacyPolicy";
 import PrivacyPolicy from "../Components/PrivacyPolicy";
 import RoadMap from "../Components/RoadMap";
-import MintSoon from "../Components/MintSoon";
+import RoadmapNew from "../Components/RoadmapNew";
+import Piatra from "../Components/PIatra";
 
 
 const Webpages = () => {
     return(
         <Router>
             <Route exact path="/" component= {About} />
-            <Route path = "/mint" component = {MintSoon} />
-            <Route path = "/team" component = {Team} />
+            <Route path = "/piatra" element={<Piatra/>} />
+            <Route path = "/gratare" component = {Team} />
             <Route path = "/terms_of_service" component={TermsAndConditions} />
-            <Route path = "/privacy_policy" component={PrivacyPolicy} />
-            <Route path = "/mint_test" component={Mint} />
-            <Route path = "/roadmap" component={RoadmapNew} />
+            <Route path = "/termenii_si_conditiile" component={PrivacyPolicy} />
+            <Route path = "/gazon" component={RoadmapNew} />
+            <Route path = "/pomi" component={RoadmapNew} />
+            <Route path = "/fantani" component={RoadmapNew} />
         </Router>
     );
 };

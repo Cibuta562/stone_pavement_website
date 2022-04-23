@@ -7,13 +7,12 @@ import StefanDobb from '../assets/owner/gazon1.png';
 import CristianaDobb from "../assets/owner/pomi2.png";
 import VladDobb from "../assets/owner/fantani1.png";
 import LinkedinLogo from '../assets/linkedin.png'
-import "./Mint.scss";
 import {Link} from "react-router-dom";
 
 const Team = () => {
 
-    function moveToLinkedinBogdan(){
-        window.open("https://www.linkedin.com/in/bogdan-lazar-23545a1a0/");
+    function moveToPiatra(){
+        window.open("/piatra");
     }
 
     function moveToLinkedinBoboc(){
@@ -81,7 +80,7 @@ const Team = () => {
             <div className="card1">
                 <div className="icon" style={{marginTop:"10px"}}>
                     <div className="continut">
-                        <h1 className='names'>Pomi</h1>
+                        <h1 className='names'>Tuie Smarald</h1>
                         <div className="cristiana">
                             <img src={CristianaDobb} className={'cristiana'} onClick={moveToLinkedinCristiana}/>
                             <h3 className='descriere-rol-team'>Plantam pomi decorativi cat si plante pentru a a duce un aspect mai placut gradinii dumneavostra.</h3>

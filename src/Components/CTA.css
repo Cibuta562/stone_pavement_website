@@ -486,6 +486,11 @@ textarea {
     color: #fff;
 }
 
+.carousel {
+    width:1000px;
+    height:600px;
+}
+
 .social-media-list li {
     position: relative;
     display: inline-block;
