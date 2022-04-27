@@ -28,14 +28,14 @@ const images = [
     },
 ];
 
-const Piatra = () => {
+const Fantani = () => {
 
     return (
         <div className='piatra'>
 
 
             <HeaderMobile/>
-            <h1 className='titluTrailer'>Piatra</h1>
+            <h1 className='titluTrailer'>Fantani</h1>
             <div className="box">
 
                 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
@@ -52,4 +52,4 @@ const Piatra = () => {
     )
 }
 
-export default Piatra
+export default Fantani

@@ -17,6 +17,10 @@ import PrivacyPolicy from "./Components/PrivacyPolicy";
 import RoadMap from "./Components/RoadMap";
 import RoadmapNew from "./Components/RoadmapNew";
 import Piatra from "./Components/PIatra";
+import Gratare from "./Components/Gratare";
+import Gazon from "./Components/Gazon";
+import Tui from "./Components/Tui";
+import Fantani from "./Components/Fantani";
 
 ReactDOM.render(
     <Router>
@@ -24,6 +28,10 @@ ReactDOM.render(
             <Route path="/" element={<App />} />
             <Route path = "/termenii_si_conditiile" element={<PrivacyPolicy />} />
             <Route path = "/piatra" element={<Piatra/>} />
+            <Route path = "/gratare" element={<Gratare/>} />
+            <Route path = "/gazon" element={<Gazon/>} />
+            <Route path = "/tui" element={<Tui/>} />
+            <Route path = "/fantani" element={<Fantani/>} />
         </Routes>
     </Router>,
 

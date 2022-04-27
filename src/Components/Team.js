@@ -11,29 +11,26 @@ import {Link} from "react-router-dom";
 
 const Team = () => {
 
-    function moveToPiatra(){
+    function moveToPiatra() {
         window.open("/piatra");
     }
 
-    function moveToLinkedinBoboc(){
-        window.open("https://www.linkedin.com/in/boboc-robert-andrei-a2b21a175/");
+    function moveToGratare(){
+        window.open("/gratare");
     }
 
-    function moveToLinkedinCristiana(){
-        window.open("https://www.linkedin.com/in/cristiana-tache-5b7b8a216/");
+    function moveToGazon(){
+        window.open("/gazon");
     }
 
-    function moveToLinkedinVlad(){
-        window.open("https://www.linkedin.com/in/vlad-popa-05a033235/");
+    function moveToTui(){
+        window.open("/tui");
     }
 
-    function moveToLinkedinStefan(){
-        window.open("https://www.linkedin.com/in/radustefandumitru/");
+    function moveToFantani(){
+        window.open("/fantani");
     }
 
-    function moveToLinkedRadu(){
-        window.open("https://www.linkedin.com/in/lupu-radu-b20ba51aa/");
-    }
 
     return (
 
@@ -45,8 +42,8 @@ const Team = () => {
                     <div className="continut">
                         <h1 className='names'>Piatra</h1>
                         <div className="boboc">
-                            <img src={BobocDobb} className={'boboc'} onClick={moveToLinkedinBoboc}/>
-                            <h3 className='descriere-rol-team'>Piatră se poate monta pe: pavaj curte, alei casă, temelie casă, terase, scări, stalpi, zidări, garduri.
+                            <img src={BobocDobb} className={'boboc'} onClick={moveToPiatra}/>
+                            <h3 className='descriere-rol-team'>Piatră se poate monta pe: pavaj curte, alei casă, temelie casă, terase, scări, stalpi, zidarii, garduri.
                                </h3>
                         </div>
                     </div>
@@ -58,7 +55,7 @@ const Team = () => {
                     <div className="continut">
                         <h1 className='names'>Gratare</h1>
                         <div className="boboc">
-                            <img src={BogdanDobb} className={'boboc'} onClick={moveToLinkedinBoboc}/>
+                            <img src={BogdanDobb} className={'boboc'} onClick={moveToGratare}/>
                             <h3 className='descriere-rol-team'>Gratarele se executa la comanda si va puteti alege modelul de caramida dorita.</h3>
                         </div>
                     </div>
@@ -70,7 +67,7 @@ const Team = () => {
                     <div className="continut">
                         <h1 className='names'>Gazon</h1>
                         <div className="stefan">
-                            <img src={StefanDobb} className='stefan' onClick={moveToLinkedinStefan}/>
+                            <img src={StefanDobb} className='stefan' onClick={moveToGazon}/>
                             <h3 className='descriere-rol-team'>Gazonul natural vine in rulouri si se poate monta atat in curte cat si in gradina.</h3>
                         </div>
                     </div>
@@ -82,8 +79,8 @@ const Team = () => {
                     <div className="continut">
                         <h1 className='names'>Tuie Smarald</h1>
                         <div className="cristiana">
-                            <img src={CristianaDobb} className={'cristiana'} onClick={moveToLinkedinCristiana}/>
-                            <h3 className='descriere-rol-team'>Plantam pomi decorativi cat si plante pentru a a duce un aspect mai placut gradinii dumneavostra.</h3>
+                            <img src={CristianaDobb} className={'cristiana'} onClick={moveToTui}/>
+                            <h3 className='descriere-rol-team'>Plantam pomi decorativi cat si plante pentru a aduce un aspect mai placut gradinii dumneavostra.</h3>
                         </div>
                     </div>
                 </div>
@@ -94,7 +91,7 @@ const Team = () => {
                     <div className="continut">
                         <h1 className='names'>Fantani</h1>
                         <div className="vlad">
-                            <img src={VladDobb} className={'vlad'} onClick={moveToLinkedinVlad}/>
+                            <img src={VladDobb} className={'vlad'} onClick={moveToFantani}/>
                             <h3 className='descriere-rol-team'>Executam fantani si cascade la comanda.</h3>
                         </div>
                     </div>

@@ -1,0 +1,33 @@
+.piatra {
+    width: 100%;
+    height: fit-content;
+    background: #605F64;
+}
+
+.titluTrailer{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px  #C5C3C8;
+    font-size: 48px;
+    margin-top: 10%;
+    padding: 20px;
+    margin-bottom: 5%;
+    font-family: Righteous;
+}
+
+.titluTrailer-p{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    margin-top: 10%;
+    padding: 20px;
+    margin-bottom: 5%;
+    font-family: Righteous;
+}
+
+
+@media (max-width: 600px) {
+    #bg-video{
+        display: none;
+    }
+}

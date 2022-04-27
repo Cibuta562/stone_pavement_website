@@ -47,6 +47,28 @@ const HeaderMobile = () => {
         closeMobileMenu();
     }
 
+
+    function moveToPiatra() {
+        window.open("/piatra");
+    }
+
+    function moveToGratare(){
+        window.open("/gratare");
+    }
+
+    function moveToGazon(){
+        window.open("/gazon");
+    }
+
+    function moveToTui(){
+        window.open("/tui");
+    }
+
+    function moveToFantani(){
+        window.open("/fantani");
+    }
+
+
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
@@ -63,26 +85,26 @@ const HeaderMobile = () => {
                 <ul className={click ? "nav-options active" : "nav-options"}>
                     <li className="option " onClick={closeMobileMenu}>
                         <Link   to="/piatra" style={{ textDecoration: 'none', color: "rgb(0,0,0)"}}>
-                            <p className='road-maphead' onClick={moveToDoberlads}>PIATRA</p>
+                            <p className='road-maphead' >PIATRA</p>
                         </Link>
                     </li>
                     <li className="option" onClick={closeMobileMenu} >
-                        <Link   to="/" style={{ textDecoration: 'none', color: "rgb(0,0,0)" }}>
-                            <p className='road-maphead' onClick={moveToTeam}>GRATARE</p>
+                        <Link   to="/gratare" style={{ textDecoration: 'none', color: "rgb(0,0,0)" }}>
+                            <p className='road-maphead' >GRATARE</p>
                         </Link>
                     </li>
                     <li className="option " onClick={closeMobileMenu} >
-                        <Link  to="/" style={{ textDecoration: 'none', color: "rgb(0,0,0)" }}>
-                            <p className='road-maphead' onClick={moveToFAQ}>GAZON</p>
+                        <Link  to="/gazon" style={{ textDecoration: 'none', color: "rgb(0,0,0)" }}>
+                            <p className='road-maphead' >GAZON</p>
                         </Link>
                     </li>
                     <li className="option " onClick={mobileAndMove} >
-                        <Link  to="/" style={{ textDecoration: 'none', color: "rgb(0,0,0)" }}>
+                        <Link  to="/tui" style={{ textDecoration: 'none', color: "rgb(0,0,0)" }}>
                             <p className='road-maphead'>TUI</p>
                         </Link>
                     </li>
                     <li className="option " onClick={mobileAndMove} >
-                        <Link  to="/" style={{ textDecoration: 'none', color: "rgb(0,0,0)" }}>
+                        <Link  to="/fantani" style={{ textDecoration: 'none', color: "rgb(0,0,0)" }}>
                             <p className='road-maphead'>FANTANI</p>
                         </Link>
                     </li>
