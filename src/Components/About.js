@@ -24,35 +24,38 @@ const About = () => {
 
                         <h2 style={{marginBottom: "20px"}}></h2>
                         <div className='non-hoverAbout'>
-                            <p style={{textAlign: "center"}} className="text-about">
+                            <p style={{textAlign: "center"}} className="text-sus-piatra">
                                 Oferim servicii de montare piatra naturală de munte.
-                                Montajul se executa in toata țara, iar piatra se poate placa pe:
+                                Montajul se executa in toata tara, iar piatra se poate placa pe:
                                 </p>
                             <br/>
                             <p style={{textAlign: "center"}} className="text-about">
-                                -alei pietonale
+                                -Alei pietonale
                             </p>
                             <p style={{textAlign: "center"}} className="text-about">
-                                -parcari auto
+                                -Parcari auto
                             </p>
                             <p style={{textAlign: "center"}} className="text-about">
-                                -scari
+                                -Scari
                             </p>
                             <p style={{textAlign: "center"}} className="text-about">
-                                -soclul casei
+                                -Soclul casei
+                            </p>
+                            <p style={{textAlign: "center"}} className="text-about">
+                                -Garduri
                             </p>
                             <p style={{textAlign: "center"}} className="text-about">
                                 -etc.
                             </p>
                             <br/>
-                            <p style={{textAlign: "center"}} className="text-about">Piatra vine in diferite nuanțe si poate fi aleasa de catre dumneavoastra.</p>
-                            <p style={{textAlign: "center"}} className="text-about">  Pentru mai multe detalii accesati pagina de contact sau sunati la numarul afisat.
+                            <p style={{textAlign: "center"}} className="text-sus-piatra">Piatra vine in diferite nuanțe si poate fi aleasa de catre dumneavoastra.</p>
+                            <p style={{textAlign: "center"}} className="text-sus-piatra">  Pentru mai multe detalii accesati pagina de contact sau sunati la numarul afisat.
                             </p>
                             <br/>
-                            <p style={{textAlign: "center"}} className="text-about"> 0790347866
+                            <p style={{textAlign: "center"}} className="text-sus-piatra"> 0790347866
                             </p>
 
-                                <p style={{textAlign: "center"}} className="text-about"> 0728523219
+                                <p style={{textAlign: "center"}} className="text-sus-piatra"> 0728523219
                             </p>
                             <br/>
                             <br/>

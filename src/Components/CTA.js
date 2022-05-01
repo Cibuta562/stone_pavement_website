@@ -41,47 +41,6 @@ const CTA = () => {
     return (
         <div className='call-to-action'>
 
-            <Carousel fade>
-                <Carousel.Item>
-                    <img
-                        width={1000} height={600} alt="900x500"
-                        className="d-block w-100"
-                        src={slider1}
-                        alt="First slide"
-                    />
-                    <Carousel.Caption>
-                        <h3>Slide 1</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        width={1000} height={600} alt="900x500"
-                        className="d-block w-100"
-                        src={slider1}
-                        alt="Second slide"
-                    />
-
-                    <Carousel.Caption>
-                        <h3>Slide 2</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        width={1000} height={600} alt="900x500"
-                        className="d-block w-100"
-                        src={slider1}
-                        alt="Third slide"
-                    />
-
-                    <Carousel.Caption>
-                        <h3>Slide 3</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-
-            </Carousel>
 
                 <div className="call-space"></div>
 

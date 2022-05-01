@@ -85,7 +85,7 @@ const Team = () => {
                         <h1 className='names'>Tuie Smarald</h1>
                         <div className="cristiana">
                             <img src={pomi} className={'cristiana'}/>
-                            <h3 className='descriere-rol-team'>Plantam pomi decorativi cat si plante pentru a aduce un aspect mai placut gradinii dumneavostra.</h3>
+                            <h3 className='descriere-rol-team'>Avem o gama larga de plante ornamentale direct de la producator pentru a aduce un aspect mai placut gradinii dumneavostra.</h3>
                         </div>
                     </div>
                 </div>
