@@ -16,24 +16,17 @@ import olxIcon from "../assets/owner/olx-logo.png";
 
 const CTA = () => {
 
-    function moveToTwitter(){
-        window.open ("https://twitter.com/DoberLads");
+
+    function moveToOlx(){
+        window.open ("https://www.olx.ro/oferte/user/d0Liv/");
     }
 
-    function moveToDiscord(){
-        window.open ("https://discord.gg/hCdmCCJdfx");
+    function moveToWapp(){
+        window.open ("https://wa.me/message/JUE5BSRGGMDCA1");
     }
 
     function moveToFb(){
-        window.open ("https://www.facebook.com/bobocrobertandrei/");
-    }
-
-    function moveToDis(){
-        window.open("https://discord.gg/hCdmCCJdfx");
-    }
-
-    function moveToTwitter(){
-        window.open("https://twitter.com/DoberLads");
+        window.open ("https://www.facebook.com/profile.php?id=100080804713576");
     }
 
 
@@ -51,7 +44,7 @@ const CTA = () => {
                     </div>
                 </div>
             </div>
-                <div className="card-call1" onClick={moveToDis}>
+                <div className="card-call1" onClick={moveToFb}>
                     <div style={{position: "relative"}}  style={{marginTop:"10px"}}>
                         <img className="img-call" src={piatra_cta} />
                     <p className="names-call">Calitate superioara</p>
@@ -67,7 +60,7 @@ const CTA = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card-call1" onClick={moveToTwitter}>
+                <div className="card-call1" onClick={moveToWapp}>
                     <div  style={{marginTop:"10px"}}>
                         <div style={{position: "relative"}}>
                             <img className="img-call" src={timp_cta} />
@@ -86,7 +79,7 @@ const CTA = () => {
                     </div>
                 </div>
                 <Link to="/roadmap">
-                <div className="card-call1" >
+                <div className="card-call1" onClick={moveToOlx}>
                     <div style={{marginTop:"10px"}}>
                         <div style={{position: "relative"}}>
                             <img className="img-call" src={bani_cta} />
@@ -157,10 +150,10 @@ const CTA = () => {
                                     <img src={instagramIcon} onClick={moveToFb}/>
                                 </div>
                                 <div className="twitterContainerH" >
-                                    <img src={twitterIcon} onClick={moveToTwitter}/>
+                                    <img src={twitterIcon} onClick={moveToWapp}/>
                                 </div>
                                 <div className="instagramContainerH" >
-                                    <img src={olxIcon} onClick={moveToTwitter}/>
+                                    <img src={olxIcon} onClick={moveToOlx}/>
                                 </div>
                             </div>
                         </ul>
