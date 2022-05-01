@@ -26,16 +26,16 @@ const HeaderMobile = () => {
         window.scrollTo(0,0);
     }
 
-    function moveToTwitter(){
-        window.open ("https://twitter.com/DoberLads");
+    function moveToOlx(){
+        window.open ("https://www.olx.ro/oferte/user/d0Liv/");
     }
 
-    function moveToDiscord(){
-        window.open ("https://discord.gg/hCdmCCJdfx");
+    function moveToWapp(){
+        window.open ("https://wa.me/message/JUE5BSRGGMDCA1");
     }
 
     function moveToFb(){
-        window.open ("https://www.facebook.com/bobocrobertandrei/");
+        window.open ("https://www.facebook.com/profile.php?id=100080804713576");
     }
 
     function moveToTop() {
@@ -114,10 +114,10 @@ const HeaderMobile = () => {
                                 <img src={instagramIcon} onClick={moveToFb}/>
                             </div>
                             <div className="twitterContainerH" >
-                                <img src={twitterIcon} onClick={moveToTwitter}/>
+                                <img src={twitterIcon} onClick={moveToWapp} />
                             </div>
                             <div className="instagramContainerH" >
-                                <img src={olxIcon} onClick={moveToTwitter}/>
+                                <img src={olxIcon} onClick={moveToOlx}/>
                             </div>
                         </div>
                     </li>

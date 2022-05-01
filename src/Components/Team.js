@@ -42,7 +42,7 @@ const Team = () => {
                         <h1 className='names'>Piatra</h1>
                         <div className="boboc">
 
-                            <img src={piatra} className={'boboc'} onClick={moveToPiatra}/>
+                            <img src={piatra} className={'boboc'}/>
                             <h3 className='descriere-rol-team'>Piatră se poate monta pe: pavaj curte, alei casă, temelie casă, terase, scări, stalpi, zidarii, garduri.
                                </h3>
                         </div>
@@ -57,7 +57,7 @@ const Team = () => {
                     <div className="continut">
                         <h1 className='names'>Gratare</h1>
                         <div className="boboc">
-                            <img src={gratare} className={'boboc'} onClick={moveToGratare}/>
+                            <img src={gratare} className={'boboc'}/>
                             <h3 className='descriere-rol-team'>Gratarele se executa la comanda si va puteti alege modelul de caramida dorita.</h3>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ const Team = () => {
                     <div className="continut">
                         <h1 className='names'>Gazon</h1>
                         <div className="stefan">
-                            <img src={gazon} className='stefan' onClick={moveToGazon}/>
+                            <img src={gazon} className='stefan'/>
                             <h3 className='descriere-rol-team'>Gazonul natural vine in rulouri si se poate monta atat in curte cat si in gradina.</h3>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ const Team = () => {
                     <div className="continut">
                         <h1 className='names'>Tuie Smarald</h1>
                         <div className="cristiana">
-                            <img src={pomi} className={'cristiana'} onClick={moveToTui}/>
+                            <img src={pomi} className={'cristiana'}/>
                             <h3 className='descriere-rol-team'>Plantam pomi decorativi cat si plante pentru a aduce un aspect mai placut gradinii dumneavostra.</h3>
                         </div>
                     </div>
@@ -98,7 +98,7 @@ const Team = () => {
                     <div className="continut">
                         <h1 className='names'>Fantani</h1>
                         <div className="vlad">
-                            <img src={fantani} className={'vlad'} onClick={moveToFantani}/>
+                            <img src={fantani} className={'vlad'}/>
                             <h3 className='descriere-rol-team'>Executam fantani si cascade la comanda.</h3>
                         </div>
                     </div>
