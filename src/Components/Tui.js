@@ -9,22 +9,39 @@ import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
 
 import "./Piatra.css";
+import pomi1 from "../assets/gallery/pomi1.jpeg"
+import pomi2 from "../assets/gallery/pomi2.jpeg"
+import pomi3 from "../assets/gallery/pomi3.jpeg"
+import pomi4 from "../assets/gallery/pomi4.jpeg"
+import pomi5 from "../assets/gallery/pomi5.jpeg"
+import pomi6 from "../assets/gallery/pomi6.jpeg"
+import pomi7 from "../assets/gallery/pomi7.jpeg"
+
 import HeaderMobile from "./HeaderMobile";
 import Footer from "./Footer";
 import Page from "react-page-loading";
 
 const images = [
     {
-        original: 'https://picsum.photos/id/1018/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1018/250/150/',
+        original: pomi1,
     },
     {
-        original: 'https://picsum.photos/id/1015/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1015/250/150/',
+        original: pomi2,
     },
     {
-        original: 'https://picsum.photos/id/1019/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1019/250/150/',
+        original: pomi3,
+    },
+    {
+        original: pomi4,
+    },
+    {
+        original: pomi5,
+    },
+    {
+        original: pomi6,
+    },
+    {
+        original: pomi7,
     },
 ];
 

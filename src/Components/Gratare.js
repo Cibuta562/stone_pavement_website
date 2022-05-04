@@ -11,20 +11,34 @@ import "react-image-gallery/styles/css/image-gallery.css";
 import "./Piatra.css";
 import HeaderMobile from "./HeaderMobile";
 import Footer from "./Footer";
+
+import gratar1 from "../assets/gallery/gratar1.jpeg"
+import gratar2 from "../assets/gallery/gratar2.jpeg"
+import gratar3 from "../assets/gallery/gratar3.jpeg"
+import gratar4 from "../assets/gallery/gratar4.jpeg"
+import gratar5 from "../assets/gallery/gratar5.jpeg"
+import gratar6 from "../assets/gallery/gratar6.jpeg"
+
 import Page from "react-page-loading";
 
 const images = [
     {
-        original: 'https://picsum.photos/id/1018/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1018/250/150/',
+        original: gratar1,
     },
     {
-        original: 'https://picsum.photos/id/1015/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1015/250/150/',
+        original: gratar2,
     },
     {
-        original: 'https://picsum.photos/id/1019/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1019/250/150/',
+        original: gratar3,
+    },
+    {
+        original: gratar4,
+    },
+    {
+        original: gratar5,
+    },
+    {
+        original: gratar6,
     },
 ];
 

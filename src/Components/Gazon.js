@@ -5,6 +5,11 @@ import Trailer from "./Trailer";
 import {Container} from "react-bootstrap";
 import ImageGallery from 'react-image-gallery';
 
+import gazon1 from "../assets/gallery/gazon1.jpeg"
+import gazon2 from "../assets/gallery/gazon2.jpeg"
+import gazon3 from "../assets/gallery/gazon3.jpeg"
+import gazon4 from "../assets/gallery/gazon4.jpeg"
+
 
 import "react-image-gallery/styles/css/image-gallery.css";
 
@@ -15,16 +20,16 @@ import Page from "react-page-loading";
 
 const images = [
     {
-        original: 'https://picsum.photos/id/1018/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1018/250/150/',
+        original: gazon1,
     },
     {
-        original: 'https://picsum.photos/id/1015/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1015/250/150/',
+        original: gazon2,
     },
     {
-        original: 'https://picsum.photos/id/1019/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1019/250/150/',
+        original: gazon3,
+    },
+    {
+        original: gazon4,
     },
 ];
 

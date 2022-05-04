@@ -8,6 +8,15 @@ import ImageGallery from 'react-image-gallery';
 
 import "react-image-gallery/styles/css/image-gallery.css";
 
+import piatra1 from "../assets/gallery/piatra1.jpeg"
+import piatra2 from "../assets/gallery/piatra2.jpeg"
+import piatra3 from "../assets/gallery/piatra3.jpeg"
+import piatra4 from "../assets/gallery/piatra4.jpeg"
+import piatra5 from "../assets/gallery/piatra5.jpeg"
+import piatra6 from "../assets/gallery/piatra6.jpeg"
+import piatra7 from "../assets/gallery/piatra7.jpeg"
+import piatra8 from "../assets/gallery/piatra8.jpeg"
+
 import "./Piatra.css";
 import HeaderMobile from "./HeaderMobile";
 import Footer from "./Footer";
@@ -15,16 +24,28 @@ import Page from "react-page-loading";
 
 const images = [
     {
-        original: 'https://picsum.photos/id/1018/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1018/250/150/',
+        original: piatra1,
     },
     {
-        original: 'https://picsum.photos/id/1015/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1015/250/150/',
+        original: piatra2,
     },
     {
-        original: 'https://picsum.photos/id/1019/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1019/250/150/',
+        original: piatra3,
+    },
+    {
+        original: piatra4,
+    },
+    {
+        original: piatra5,
+    },
+    {
+        original: piatra6,
+    },
+    {
+        original: piatra7,
+    },
+    {
+        original: piatra8,
     },
 ];
 
