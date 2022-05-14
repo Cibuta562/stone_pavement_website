@@ -18,6 +18,9 @@ import gratar3 from "../assets/gallery/gratar3.jpeg"
 import gratar4 from "../assets/gallery/gratar4.jpeg"
 import gratar5 from "../assets/gallery/gratar5.jpeg"
 import gratar6 from "../assets/gallery/gratar6.jpeg"
+import gratar7 from "../assets/gallery/gratar7.jpeg"
+import gratar8 from "../assets/gallery/gratar8.jpeg"
+import gratar9 from "../assets/gallery/gratar9.jpeg"
 
 import Page from "react-page-loading";
 
@@ -39,6 +42,15 @@ const images = [
     },
     {
         original: gratar6,
+    },
+    {
+        original: gratar7,
+    },
+    {
+        original: gratar8,
+    },
+    {
+        original: gratar9,
     },
 ];
 

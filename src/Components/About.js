@@ -25,7 +25,7 @@ const About = () => {
                         <h2 style={{marginBottom: "20px"}}></h2>
                         <div className='non-hoverAbout'>
                             <p style={{textAlign: "center"}} className="text-sus-piatra">
-                                Oferim servicii de montare piatra naturală de munte.
+                                Oferim servicii de montare piatra naturala de munte.
                                 Montajul se executa in toata tara, iar piatra se poate placa pe:
                                 </p>
                             <br/>

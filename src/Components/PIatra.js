@@ -24,10 +24,13 @@ import Page from "react-page-loading";
 
 const images = [
     {
+        original: piatra7,
+    },
+    {
         original: piatra1,
     },
     {
-        original: piatra2,
+        original: piatra5,
     },
     {
         original: piatra3,
@@ -36,13 +39,10 @@ const images = [
         original: piatra4,
     },
     {
-        original: piatra5,
-    },
-    {
         original: piatra6,
     },
     {
-        original: piatra7,
+        original: piatra2,
     },
     {
         original: piatra8,

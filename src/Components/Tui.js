@@ -26,13 +26,13 @@ const images = [
         original: pomi1,
     },
     {
-        original: pomi2,
-    },
-    {
         original: pomi3,
     },
     {
-        original: pomi4,
+        original: pomi2,
+    },
+    {
+        original: pomi7,
     },
     {
         original: pomi5,
@@ -41,7 +41,7 @@ const images = [
         original: pomi6,
     },
     {
-        original: pomi7,
+        original: pomi4,
     },
 ];
 
