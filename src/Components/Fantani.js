@@ -3,6 +3,7 @@ import {Link, NavLink} from "react-router-dom";
 import ScrollAnimate from "react-scroll-fade-animation";
 import Trailer from "./Trailer";
 import {Container} from "react-bootstrap";
+
 import ImageGallery from 'react-image-gallery';
 
 
@@ -12,19 +13,11 @@ import "./Piatra.css";
 import HeaderMobile from "./HeaderMobile";
 import Footer from "./Footer";
 import Page from "react-page-loading";
+import fantani1 from "../assets/gallery/fantani1.png";
 
 const images = [
     {
-        original: 'https://picsum.photos/id/1018/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1018/250/150/',
-    },
-    {
-        original: 'https://picsum.photos/id/1015/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1015/250/150/',
-    },
-    {
-        original: 'https://picsum.photos/id/1019/1000/600/',
-        thumbnail: 'https://picsum.photos/id/1019/250/150/',
+        original: fantani1,
     },
 ];
 
