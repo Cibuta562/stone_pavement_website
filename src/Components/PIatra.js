@@ -16,6 +16,8 @@ import piatra5 from "../assets/gallery/piatra5.jpeg"
 import piatra6 from "../assets/gallery/piatra6.jpeg"
 import piatra7 from "../assets/gallery/piatra7.jpeg"
 import piatra8 from "../assets/gallery/piatra8.jpeg"
+import piatra9 from "../assets/gallery/piatra9.jpeg"
+import piatra10 from "../assets/gallery/piatra10.jpeg"
 
 import "./Piatra.css";
 import HeaderMobile from "./HeaderMobile";
@@ -45,7 +47,10 @@ const images = [
         original: piatra2,
     },
     {
-        original: piatra8,
+        original: piatra9,
+    },
+    {
+        original: piatra10,
     },
 ];
 
