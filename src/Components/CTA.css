@@ -4,6 +4,11 @@
     height: 350px;
 }
 
+.opp{
+    opacity: 0;
+}
+
+
 .hr3 {
     border: 0;
     margin-top: 0px;
@@ -30,7 +35,7 @@
 
 
 .call-space{
-    height: 200px;
+    height: 150px;
     width: 100%;
     position: relative;
 }
@@ -268,6 +273,10 @@
 
 
 @media (max-width: 648px) {
+
+    .opp{
+        opacity: 0;
+    }
 
     .card1{
         width: 300px;
@@ -547,6 +556,9 @@ hr {
 /* Begin Media Queries*/
 @media screen and (max-width: 850px) {
 
+    .opp{
+        opacity: 1;
+    }
 
     .place {
         margin-left: 0;
@@ -577,6 +589,10 @@ hr {
 }
 
 @media screen and (max-width: 569px) {
+
+    .opp{
+        opacity: 1;
+    }
 
     .place {
         margin-left: 0;

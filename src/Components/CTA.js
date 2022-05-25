@@ -13,6 +13,7 @@ import instagramIcon from "../assets/assets_website/logo_fb_black.png";
 import twitterIcon from "../assets/assets_website/whapp.png";
 import Carousel from 'react-bootstrap/Carousel'
 import olxIcon from "../assets/owner/olx-logo.png";
+import {Container} from "react-bootstrap";
 
 const CTA = () => {
 
@@ -35,7 +36,13 @@ const CTA = () => {
         <div className='call-to-action'>
 
 
-                <div className="call-space"></div>
+                <div className="call-space">
+                    <div className="direct-contact-container">
+                        <hr className="opp"/>
+
+                    </div>
+                </div>
+
 
             <div className="col-call col-margin">
             <div className="card-call">

@@ -85,26 +85,14 @@ const Team = () => {
                         <h1 className='names'>Tuie Smarald</h1>
                         <div className="cristiana">
                             <img src={pomi} className={'cristiana'}/>
-                            <h3 className='descriere-rol-team'>Avem o gama larga de plante ornamentale direct de la producator pentru a aduce un aspect mai placut gradinii dumneavostra.</h3>
+                            <h3 className='descriere-rol-team'>Oferim o gama larga de plante ornamentale direct de la producator pentru a aduce un aspect mai placut gradinii dumneavostra.</h3>
                         </div>
                     </div>
                 </div>
             </div>
                 </Link>
 
-                <Link to="/fantani" style={{textDecoration: "none"}}>
-            <div className="card1">
-                <div className="icon" style={{marginTop:"10px"}}>
-                    <div className="continut">
-                        <h1 className='names'>Fantani</h1>
-                        <div className="vlad">
-                            <img src={fantani} className={'vlad'}/>
-                            <h3 className='descriere-rol-team'>Executam fantani si cascade la comanda.</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                </Link>
+
 
 
         </div>

@@ -32,8 +32,8 @@
     transition: 0.45s;
     position: relative;
     overflow: hidden;
-    width: 330px;
-    height: 500px;
+    width: 370px;
+    height: 550px;
     background-color: #C5C3C8;
     margin: 40px;
     border-radius: 20px;
@@ -66,8 +66,8 @@
      position: absolute;
      top: -10px;
      left: 70px;
-     width: 100%;
-     height: 120%;
+     width: 110%;
+     height: 130%;
      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2));
      transform: rotate(35deg);
      pointer-events: none;
@@ -265,7 +265,7 @@
     }
 
     .card1{
-        width: 300px;
+        width: 350px;
         height: 500px;
     }
 

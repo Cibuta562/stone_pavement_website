@@ -103,11 +103,6 @@ const HeaderMobile = () => {
                             <p className='road-maphead'>TUI</p>
                         </Link>
                     </li>
-                    <li className="option " onClick={mobileAndMove} >
-                        <Link  to="/fantani" style={{ textDecoration: 'none', color: "rgb(0,0,0)" }}>
-                            <p className='road-maphead'>FANTANI</p>
-                        </Link>
-                    </li>
                     <li className="option buttons"  onClick={closeMobileMenu} >
                         <div className='headerActions'>
                             <div className="instagramContainerH" >
