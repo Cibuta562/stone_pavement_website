@@ -3,17 +3,12 @@ import "./CTA.css"
 import piatra_cta from  "../assets/owner/piatra_cta.jpg" ;
 import bani_cta from  "../assets/owner/bani_cta.jpg" ;
 import timp_cta from  "../assets/owner/timp_cta.jpg" ;
-import slider1 from "../assets/owner/slider1.jpg";
-import slider2 from "../assets/owner/slider2.jpeg";
-import slider3 from "../assets/owner/slider3.jpeg";
-import slider4 from "../assets/owner/slider4.jpeg";
 import {Link} from "react-router-dom";
-import RoadMap from "./RoadMap";
 import instagramIcon from "../assets/assets_website/logo_fb_black.png";
 import twitterIcon from "../assets/assets_website/whapp.png";
-import Carousel from 'react-bootstrap/Carousel'
 import olxIcon from "../assets/owner/olx-logo.png";
 import {Container} from "react-bootstrap";
+import emailjs from "emailjs-com";
 
 const CTA = () => {
 
@@ -29,6 +24,20 @@ const CTA = () => {
     function moveToFb(){
         window.open ("https://www.facebook.com/profile.php?id=100080804713576");
     }
+
+    function sendEmail(e) {
+        e.preventDefault();
+
+
+        emailjs.sendForm("Piatra Naturala de Munte", "template_rpiry6d", e.target, "7M4Cj0uk_09UOe3du")
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        e.target.reset();
+    }
+
 
 
 
@@ -108,28 +117,19 @@ const CTA = () => {
 
             <div className="contact-wrapper">
 
-                <form id="contact-form" className="form-horizontal" role="form">
+                <form onSubmit={sendEmail} id="contact-form" className="form-horizontal" role="form">
 
-                    <div className="form-group">
-                        <div className="col-sm-12">
-                            <input type="text" className="form-control" id="name" placeholder="NUME" name="name"
-                                   value="" required/>
-                        </div>
-                    </div>
+                            <input type="text" className="form-control col-sm-12 form-group" placeholder="NUME" name="name"
+                                    />
 
-                    <div className="form-group">
-                        <div className="col-sm-12">
-                            <input type="email" className="form-control" id="email" placeholder="EMAIL" name="email"
-                                   value="" required/>
-                        </div>
-                    </div>
+                            <input type="email" className="form-control col-sm-12 form-group"  placeholder="EMAIL" name="email"
+                                    />
 
                     <textarea className="form-control" rows="10" placeholder="MESAJ" name="message"
                               required></textarea>
 
-                    <button className='mintButton1-contact' >
-                        SEND
-                    </button>
+                    <input type="submit" className='mintButton1-contact' value="SEND">
+                    </input>
 
                 </form>
 
