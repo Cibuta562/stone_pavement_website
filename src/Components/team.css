@@ -34,7 +34,7 @@
     overflow: hidden;
     width: 370px;
     height: 550px;
-    background-color: #C5C3C8;
+    background-color: rgba(197,195,200,0.6);
     margin: 40px;
     border-radius: 20px;
     display: flex;
@@ -43,9 +43,12 @@
     border: 5px white;
 }
 
-.card1:hover{
-    background-color: #BEB2A2;
+.card1:hover {
+    background-color: rgba(197,195,200,0.8);
 }
+ /*.names:hover {
+     color: black;
+ }*/
 
 /*.card1::before{
     content: '';

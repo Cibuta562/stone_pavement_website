@@ -1,8 +1,8 @@
 import React from 'react'
 import "./team.css"
 import piatra from "../assets/owner/piatra1.png";
-import gratare from "../assets/owner/gratar1.png";
-import gazon from '../assets/owner/gazon1.png';
+import gratare from "../assets/gallery/gratar3.jpeg";
+import gazon from '../assets/gallery/gazon1.jpeg';
 import pomi from "../assets/owner/pomi2.png";
 import fantani from "../assets/owner/fantani1.png";
 import {Link} from "react-router-dom";

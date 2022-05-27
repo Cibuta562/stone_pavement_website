@@ -22,7 +22,7 @@ const CTA = () => {
     }
 
     function moveToFb(){
-        window.open ("https://www.facebook.com/profile.php?id=100080804713576");
+        window.open ("https://www.facebook.com/profile.php?id=100081064977561");
     }
 
     function sendEmail(e) {

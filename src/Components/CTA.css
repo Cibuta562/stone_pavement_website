@@ -532,14 +532,15 @@ textarea {
     background-color: #fff;
 }
 
-.social-media-list li:hover:after {
+.social-media-list li:after {
     opacity: 1;
     transform: scale(1.12);
     transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
 }
 
-.social-media-list li:hover a {
-    color: #000;
+.social-media-list li {
+    color: white;
+    background-color: white;
 }
 
 .copyright {

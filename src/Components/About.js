@@ -1,4 +1,19 @@
 import './about.css'
+import ImageGallery from 'react-image-gallery';
+
+
+import "react-image-gallery/styles/css/image-gallery.css";
+
+import piatra1 from "../assets/gallery/piatra1.jpeg"
+import piatra2 from "../assets/gallery/piatra2.jpeg"
+import piatra3 from "../assets/gallery/piatra3.jpeg"
+import piatra4 from "../assets/gallery/piatra4.jpeg"
+import piatra5 from "../assets/gallery/piatra5.jpeg"
+import piatra6 from "../assets/gallery/piatra6.jpeg"
+import pomi1 from "../assets/gallery/pomi1.jpeg"
+import gazon3 from "../assets/gallery/gazon3.jpeg"
+import piatra9 from "../assets/gallery/piatra9.jpeg"
+import gratar1 from "../assets/gallery/gratar1.jpeg"
 
 import React, { useEffect } from 'react';
 import {Link, NavLink} from "react-router-dom";
@@ -14,9 +29,26 @@ const About = () => {
     function moveToTop(){
         window.scrollTo(0, 6300);
     }
+
+    const images = [
+        {
+            original: piatra9,
+        },
+        {
+            original: gratar1,
+        },
+        {
+            original: gazon3,
+        },
+        {
+            original: pomi1,
+        },
+    ];
+
     return (
         <div className='diagonal'>
         <div className='stories'>
+            <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
 
                 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
                 <div className="story1">
@@ -58,30 +90,19 @@ const About = () => {
                                 <p style={{textAlign: "center"}} className="text-sus-piatra"> 0728523219
                             </p>
                             <br/>
-                            <br/>
-                            <p style={{textAlign: "center"}} className="text-about">
-                            </p>
+
+                            <ImageGallery items={images} />
                         </div>
                 </div>
             </div>
         </div>
             <Link className="no-hover-mint" to="#">
-            <button className='mintButton1' onClick={moveToTop}>
+            <button className='mintButton1' onClick={moveToTop} style={{marginTop: "-50px"}}>
                 CONTACT
                 </button>
             </Link>
             <ScrollAnimate path={'bottom'}>
-                <div className='stories'>
-                    <div className="story1">
-                            <div className='box1'>
-                                <h2 style={{marginBottom: "20px"}}></h2>
-                                    <div className='non-hoverAbout'>
-                                        <p style={{textAlign: "center"}}>
-                                          </p>
-                                    </div>
-                            </div>
-                    </div>
-                </div>
+
             </ScrollAnimate>
 
 </div>
